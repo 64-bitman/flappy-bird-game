@@ -469,9 +469,5 @@ class Button(pygame.sprite.Sprite):
                     self.action()
 
 
-if __name__ == "__main__":  # v = gt + vi
-    # Using @property decorator
-    print(pygame.font.match_font(""))
-    for font in pygame.font.get_fonts():
-        if "" in font:
-            print(font)
+if __name__ == "__main__":
+    ...
